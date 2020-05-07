@@ -69,7 +69,7 @@ int main(int argc, char const *argv[])
         // wait till the child process changes state 
         //i.e it releases resources and returns
         while((wait(&status) > 0));
-        printf("parent process completed\n")
+        printf("parent process completed\n");
     } 
     
     return 0; 
